@@ -12,6 +12,33 @@ A web-based Movie Recommender system built with Flask that suggests movies simil
 - Simple and clean UI built with HTML + CSS
 - Flask-powered web application
 
-## 📂 Project Structure
+## 🛠️ How It Works
 
-├── app.py # Flask application ├── movie_recommender.py # Data preprocessing, model building & saving ├── templates/ │ ├── index.html # Home page for recommendations │ └── charts.html # Visualizations page ├── static/ │ └── charts/ │ ├── top_genres.png │ ├── top_actors.png │ └── similarity_heatmap.png ├── movies.pkl # Processed movie data ├── similarity_count.pkl # Count Vectorizer similarity matrix ├── similarity_tfidf.pkl # TF-IDF similarity matrix ├── tmdb_5000_movies.csv # Movie metadata (from TMDB) ├── tmdb_5000_credits.csv # Cast and crew data (from TMDB) └── README.md
+1. **Data Preprocessing**  
+   Run `movie_recommender.py` to process the TMDB dataset and generate:
+   - Tagged movie descriptions
+   - Count/TF-IDF vectors
+   - Cosine similarity matrices
+   - Visual charts
+
+2. **Web App (Flask)**  
+   Run `app.py` to start the web server:
+   ```bash
+   python app.py
+
+## Usage
+
+- Input a movie title
+- Choose a model (Count or TF-IDF)
+- Get top 5 similar movie suggestions
+- Click on "View Analytics" to explore genre and actor trends
+
+## 🧠 Technologies Used
+
+- Python
+- Flask
+- Pandas, NumPy, Scikit-learn, NLTK
+- Matplotlib, Seaborn
+- HTML5, CSS3
+
+## ![image](https://github.com/user-attachments/assets/2002a6a0-ed7c-4d62-9837-a0fac096f0d3)
