@@ -41,4 +41,7 @@ A web-based Movie Recommender system built with Flask that suggests movies simil
 - Matplotlib, Seaborn
 - HTML5, CSS3
 
-## ![image](https://github.com/user-attachments/assets/2002a6a0-ed7c-4d62-9837-a0fac096f0d3)
+## 📁 Dataset Source
+TMDB 5000 Movie Dataset on Kaggle
+
+## Made By Hamiz Khan
