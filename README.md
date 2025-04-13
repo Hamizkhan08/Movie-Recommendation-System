@@ -2,6 +2,10 @@
 
 A web-based Movie Recommender system built with Flask that suggests movies similar to the one you input, using two different NLP models — **Count Vectorizer** and **TF-IDF Vectorizer**. It also includes insightful visualizations on genres, actors, and movie similarity metrics.
 
+(https://github.com/user-attachments/assets/8111b6d2-172f-42fb-adfe-ffd87c1fd6a6)
+
+
+
 ## 🚀 Features
 
 - Recommend similar movies using:
